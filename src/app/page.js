@@ -1,8 +1,10 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#163020] ">
-      <p>portfolio HBA</p>
-    </main>
+    <section>
+      <section className="bg-[#163020]" id="home">
+        <h1 className="font-bold text-4xl text-[#A367B1] p-2">Himaloy Bala Ashish</h1>
+      </section>
+    </section>
   )
 }

@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.butons{
+  @apply bg-[#7C93C3] text-[#] h-10 w-28  flex items-center justify-center  hover:rounded-3xl hover:bg-[#88AB8E] duration-500
+}
+
+body{
+  scroll-behavior: smooth;
+}

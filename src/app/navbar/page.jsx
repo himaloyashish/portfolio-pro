@@ -21,11 +21,11 @@ const Navbar = () => {
                     <li className='font-bold text-xl '><a href="#">Himaloy</a></li>
                 </ul>
                 <ul className='lg:flex gap-3'>
-                    <li className='font-bold text-xl '><a href="#home">Home</a></li>
-                    <li className='font-bold text-xl '><a href="#about">About</a></li>
-                    <li className='font-bold text-xl '><a href="#education">Education</a></li>
-                    <li className='font-bold text-xl '><a href="#skills">Skills</a></li>
-                    <li className='font-bold text-xl '><a href="#contact">Contact</a></li>
+                    <li className='font-bold text-xl butons'><a href="#home">Home</a></li>
+                    <li className='font-bold text-xl butons'><a href="#about">About</a></li>
+                    <li className='font-bold text-xl butons'><a href="#education">Education</a></li>
+                    <li className='font-bold text-xl butons'><a href="#skills">Skills</a></li>
+                    <li className='font-bold text-xl butons'><a href="#contact">Contact</a></li>
                 </ul>
             </ul>
         </div>
