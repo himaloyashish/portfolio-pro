@@ -1,5 +1,6 @@
 "use client"
 import {  XMarkIcon, Bars3Icon } from '@heroicons/react/24/solid'
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -21,11 +22,11 @@ const Navbar = () => {
                     <li className='font-bold text-xl '><a href="#">Himaloy</a></li>
                 </ul>
                 <ul className='lg:flex gap-3'>
-                    <li className='font-bold text-xl butons'><a href="#home">Home</a></li>
-                    <li className='font-bold text-xl butons'><a href="#about">About</a></li>
-                    <li className='font-bold text-xl butons'><a href="#education">Education</a></li>
-                    <li className='font-bold text-xl butons'><a href="#skills">Skills</a></li>
-                    <li className='font-bold text-xl butons'><a href="#contact">Contact</a></li>
+                    <li className='font-bold text-xl butons'><Link href="#home">Home</Link></li>
+                    <li className='font-bold text-xl butons'><Link href="#about">About</Link></li>
+                    <li className='font-bold text-xl butons'><Link href="#education">Education</Link></li>
+                    <li className='font-bold text-xl butons'><Link href="#skills">Skills</Link></li>
+                    <li className='font-bold text-xl butons'><Link href="#contact">Contact</Link></li>
                 </ul>
             </ul>
         </div>
