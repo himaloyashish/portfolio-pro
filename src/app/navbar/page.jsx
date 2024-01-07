@@ -7,7 +7,7 @@ const Navbar = () => {
     const [Open, setOpen] = useState(false)
 
     return (
-        <div className=' py-4 px-2 bg-[#304D30] text-white'>
+        <div className=' py-4 px-2 bg-[#11235A] text-white'>
             <span className='lg:hidden' onClick={() => setOpen(!Open)}>
                 {
                     Open ? <XMarkIcon className="h-6 w-6 text-blue-500 cursor-pointer" /> :
@@ -16,7 +16,7 @@ const Navbar = () => {
                 }
             </span>
 
-            <ul className={` lg:flex  justify-between items-center absolute z-10  md:static ${Open? "left-6" : "-left-28 duration-500"} `}>
+            <ul className={` lg:flex  justify-between items-center absolute z-10  md:static ${Open? "left-6" : "-left-28 "} duration-500`}>
                 <ul>
                     <li className='font-bold text-xl '><a href="#">Himaloy</a></li>
                 </ul>
