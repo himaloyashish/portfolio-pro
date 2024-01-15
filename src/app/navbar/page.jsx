@@ -17,7 +17,7 @@ const Navbar = () => {
                 }
             </span>
 
-            <ul className={` lg:flex  justify-between items-center absolute z-10  md:static ${Open? "left-6" : "-left-28 "} duration-500`}>
+            <ul className={` lg:flex  justify-between items-center absolute z-10 lg:static   ${Open? "left-6" : "-left-28 "} duration-500`}>
                 <ul>
                     <li className='font-bold text-xl '><a href="#">Himaloy</a></li>
                 </ul>

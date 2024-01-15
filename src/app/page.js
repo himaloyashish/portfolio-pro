@@ -13,7 +13,10 @@ export default function Home() {
           
         </div>
         <div>
-          <Image src={"/public/picture/portfolio.jpg"} width={400} height={500} alt="Image of Author"></Image>
+          <Image src={"/public/picture/portfolio.png"} 
+          width={400} 
+          height={500}
+          alt="Image of Author"/>
         </div>
       </section>
     </section>
